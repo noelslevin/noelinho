@@ -1,0 +1,122 @@
+/*
+Theme Name:     Noelinho
+Theme URI:      http://noelinho.org
+Description:    Noelinho's child theme for the Twenty Twelve theme
+Author:         Noel Slevin
+Author URI:     http://noelinho.org
+Template:       twentytwelve
+Version:        1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+.site-info {
+	display: none;
+}
+
+.page-template h1.entry-title {
+	display: inline;
+}
+
+.page-template div.entry-page-image {
+	margin-left: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+}
+
+.photo-caption {
+	margin: 10px 0px 0px 0px;
+	text-align: right;
+	font-size: 12px;
+}
+
+img.attachment-post thumbnail, img.wp-post-image {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+div.entry-page-image {
+	margin-right: 2px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(170, 170, 170);
+	padding: 3px 3px 1px 3px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: -8px 8px 10px rgb(204, 204, 204);
+	background-color: #EEEEEE;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+}
+
+.page-template-page-templatesfront-page-php article.type-page {
+	float:none;
+	width: 100%;
+	display: inline;
+}
+
+p.wp-caption-text {
+	text-align: right;
+	margin-right: 20px;
+}
+
+div.wp-caption.alignright {
+	margin-left: 20px;
+}
+.wp-caption {
+	padding: 0px;
+}
+
+img#wpstats {
+	display:none
+}
+
+div.tag-cloud, div.tagcloud {
+	text-align: center;
+}
+
+div.tag-cloud a, div.tagcloud a {
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+div.tag-cloud a {
+	font-weight: 600;
+}
+
+div.tagcloud a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div.sharedaddy div.sd-content {
+	float: left;
+	}
+
+#wpadminbar {
+	display: none;
+}
+
+.site-content article {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+
+@media screen and (max-width: 599px) {
+div.entry-page-image {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;	
+	margin-left: 0 !important;
+}
+}
+
+@media screen and (max-width: 449px) {
+div.wp-caption.alignright {
+display: block;
+float: none;
+margin: 0px auto;
+}
+}
